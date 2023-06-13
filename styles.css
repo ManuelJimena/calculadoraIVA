@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif; /* Se establece la fuente para el texto del cuerpo del documento */
+  margin: 0; /* Se elimina el margen exterior del cuerpo del documento */
+  padding: 0; /* Se elimina el relleno del cuerpo del documento */
+  background-color: #f2f2f2; /* Se establece el color de fondo del cuerpo del documento */
+}
+
+header {
+  background-color: #8a2be2; /* Se establece el color de fondo del encabezado */
+  color: #fff; /* Se establece el color del texto del encabezado */
+  padding: 20px; /* Se establece el relleno interno del encabezado */
+  text-align: center; /* Se centra el contenido del encabezado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Se agrega una sombra al encabezado */
+}
+
+section {
+  margin: 20px; /* Se establece el margen exterior de las secciones */
+  text-align: center; /* Se centra el contenido de las secciones */
+}
+
+input[type="number"] {
+  padding: 10px; /* Se establece el relleno interno del campo de entrada numérica */
+  width: 200px; /* Se establece el ancho del campo de entrada numérica */
+  border: none; /* Se elimina el borde del campo de entrada numérica */
+  border-radius: 5px; /* Se establece el radio de borde del campo de entrada numérica */
+  font-size: 16px; /* Se establece el tamaño de fuente del campo de entrada numérica */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Se agrega una sombra al campo de entrada numérica */
+}
+
+button {
+  padding: 10px 20px; /* Se establece el relleno interno del botón */
+  background-color: #8a2be2; /* Se establece el color de fondo del botón */
+  color: #fff; /* Se establece el color del texto del botón */
+  border: none; /* Se elimina el borde del botón */
+  border-radius: 5px; /* Se establece el radio de borde del botón */
+  font-size: 16px; /* Se establece el tamaño de fuente del botón */
+  cursor: pointer; /* Se cambia el cursor al pasar sobre el botón */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Se agrega una sombra al botón */
+  transition: background-color 0.3s ease; /* Se agrega una transición suave para el cambio de color de fondo del botón */
+}
+
+button:hover {
+  background-color: #6c1cbb; /* Se establece el color de fondo del botón al pasar sobre él */
+}
+
+#resultado {
+  display: none; /* Se oculta el elemento con id 'resultado' */
+}
+
+#resultado p {
+  font-size: 20px; /* Se establece el tamaño de fuente del párrafo dentro de 'resultado' */
+  color: #8a2be2;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #e6e6e6;
+}
