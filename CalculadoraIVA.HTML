@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IVA</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Calculadora de IVA</h1>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+        </div>
     </header>
 
     <section>
         <h2>Introduce el importe sin IVA:</h2>
         <input type="number" id="importe" step="0.01">
-        
+
         <h2>Selecciona el país:</h2>
         <select id="pais">
             <option value="espana">España</option>
@@ -35,4 +43,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
