@@ -1,10 +1,10 @@
 // Función para calcular el IVA
 function calcularIVA() {
   // Obtiene el valor del importe sin IVA del elemento con id 'importe'
-  var importeSinIVA = parseFloat(document.getElementById('importe').value);
+  let importeSinIVA = parseFloat(document.getElementById('importe').value);
   // Obtiene el valor del país del elemento con id 'pais'
-  var pais = document.getElementById('pais').value;
-  var iva;
+  let pais = document.getElementById('pais').value;
+  let iva;
 
   // Calcula el IVA basado en el país
   if (pais === 'espana') {
@@ -16,7 +16,7 @@ function calcularIVA() {
   }
 
   // Calcula el total con IVA
-  var totalConIVA = importeSinIVA + iva;
+  let totalConIVA = importeSinIVA + iva;
 
   // Muestra el total con IVA en el elemento con id 'importe-iva'
   document.getElementById('importe-iva').textContent = "El importe con IVA es: " + totalConIVA.toFixed(2) + " €";
