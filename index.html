@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Aplicación web para calcular el IVA en ES-PR"
+    />
+    <meta name="author" content="Manuel Jimena" />
+    <meta
+      name="keywords"
+      content="IVA, Calculadora, JavaScript, 21%, HTML5, CSS3"
+    />
+    <title>Calculadora de IVA</title>
+    <link
+      rel="icon"
+      href="https://seeklogo.com/images/I/international-vending-alliance-iva-logo-9B721851B2-seeklogo.com.png"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="title">Calculadora de IVA</h1>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
+    </header>
+
+    <section>
+      <h2>Introduce el importe sin IVA:</h2>
+      <input type="number" id="importe" step="0.01" />
+
+      <h2>Selecciona el país:</h2>
+      <select id="pais">
+        <option value="espana">España</option>
+        <option value="andorra">Andorra</option>
+      </select>
+
+      <button onclick="calcularIVA()">Calcular</button>
+    </section>
+
+    <section id="resultado" style="display: none">
+      <h2>Resultado:</h2>
+      <p id="importe-iva"></p>
+    </section>
+
+    <footer>
+      <p>
+        © 2023 Calculadora de IVA. Todos los derechos reservados. |
+        <a href="https://github.com/ManuelJimena/ManuelJimena">GitHub</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
