@@ -11,12 +11,30 @@ header {
   padding: 20px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 15vh;
+}
+
+main {
+  height: 65vh;
 }
 
 section {
   margin: 20px;
   text-align: center;
-}
+ 
+} 
+
+#resultado {
+  margin: 20px;
+  text-align: center;
+
+} 
+
+:-moz-any-link {
+  margin: 20px;
+  text-align: center;
+  height: vh;
+} 
 
 input[type="number"] {
   padding: 10px;
@@ -100,7 +118,8 @@ button:hover {
 }
 
 #resultado {
-  display: none;
+  display: flex;
+
 }
 
 #resultado p {
@@ -115,6 +134,7 @@ footer {
   padding: 10px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 10vh;
 }
 
 footer a {
